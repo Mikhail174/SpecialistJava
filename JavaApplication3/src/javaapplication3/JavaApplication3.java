@@ -34,4 +34,8 @@ public class JavaApplication3 {
         return s;
     }
     
+    StringBuilder sb = new StringBuilder();
+    
+    
+    
 }
