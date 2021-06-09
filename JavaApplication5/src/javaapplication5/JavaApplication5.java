@@ -9,8 +9,14 @@ public class JavaApplication5 {
         sb.append(' ');
         sb.append("world");
         sb.append('!');
-        
         System.out.println(sb);
+        Test test = new Test ();
+        test.x = 101;
+        System.out.println(test); //показывает полный путь к файлу и его хеш после @
+        System.out.println(test.x); 
+        
     }
-    
+}
+class Test {
+    int x;
 }
