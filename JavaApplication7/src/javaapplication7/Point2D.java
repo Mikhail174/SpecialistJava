@@ -72,6 +72,12 @@ public class Point2D {
         
     }
     
+    public Point2D addTo (Point2D rValue) {
+        
+    
+      return new Point2D(x+rValue.x, y+rValue.y);
+    }
+    
     
     
 
@@ -91,6 +97,8 @@ public class Point2D {
         length = Math.sqrt (x*x+y*y);
         
     }
+    
+    
     
     
     

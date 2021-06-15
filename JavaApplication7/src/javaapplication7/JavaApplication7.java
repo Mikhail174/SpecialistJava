@@ -21,6 +21,7 @@ public class JavaApplication7 {
           System.out.println("Distance between = "+p1.distanceTo(p2));
           
           System.out.println("Distance between = "+p1.distanceTo(new Point2D(4,5))); // анонимный объект,  у него нет имени, а слеодвательно нет ссылки, gc удаляет сразу, как они будут не нужны
+          System.out.println("addTo ="+p1.addTo(p2));
 
 //Class.forName("javaapplication7.Point2D"); //рефлексия - принудительная загрузка класса в память. static block выполнится. можно не зная ничего о классе повыывать методы, выводя предварительно список этих методов
 
