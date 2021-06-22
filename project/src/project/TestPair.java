@@ -1,3 +1,5 @@
+package project;
+
 public class TestPair extends Test {
 
     private int y;

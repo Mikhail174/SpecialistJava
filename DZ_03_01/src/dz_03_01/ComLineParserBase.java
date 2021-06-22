@@ -1,4 +1,4 @@
-package javaapplication1;
+package dz_03_01;
 
 public class ComLineParserBase {
     private String[] keys;           // ключи
